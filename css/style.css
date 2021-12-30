@@ -51,6 +51,241 @@
     line-height: 166px;
     color: #9A081F;
 }
+.section{
+    width: 100%;
+    height: 900px;
+    padding-top: 110px;
+    position: relative;
+    margin-bottom: 230px;
+}
+.bell{
+    background: url('../img/bgr1.png') no-repeat 100% 100%;
+    background-position: center;
+    background-size: cover; 
+}
+.tree{
+    position: absolute;
+    left: 260px;
+    bottom: -230px;
+}
+.bg{
+    position: absolute;
+    right: 160px;
+    bottom: -60px;
+}
+.bgr{
+    position: absolute;
+    top: 110px;
+    left: 160px;
+}
+.content{
+    width: 80%;
+    height: 900px;
+    margin: auto;
+}
+.info{
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+.addw{
+    display: flex;
+    justify-content: space-between;
+}
+.add{
+    display: flex;
+    justify-content: flex-start;
+}
+.adww{
+    padding-right: 10px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+.info-img{
+    width: 450px;
+    height: 450px;
+    margin: 0 80px 0 10px;
+    z-index: 1;
+}
+.add-img{
+    margin: 0 0 0 100px;
+}
+.info-img img{
+    height: 440px;
+    width: 440px;
+    
+}
+.adww-img{
+    margin-left: 85px;
+}
+.add-text{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.addw-text{
+    width: 520px;
+    margin-left: 40px;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.adww-text{
+    width: 490px;
+}
+.info-text{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    z-index: 1;
+}
+
+.info-text p, .addw-text p{
+    font-family: Euclid Flex;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 155%;
+    color: #393939;
+
+}
+.info-text h3, .addw-text h3{
+    font-family: Christmas Glitter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 160%;
+    margin-bottom: 25px;
+    color: #9A081F;
+}
+.info-text .tit{
+    color: #CB0C2A;
+}
+.info-text .titl{
+    margin-top: 55px;
+}
+.group{
+    width: 100%;
+    height: 850px;
+}
+.group-list{
+    width: 80%;
+    height: 850px;
+    margin: auto;
+    position: relative;
+}
+.group-list ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.group-list ul li{
+    margin-bottom:35px;
+    
+}
+.group-list ul li img{
+    height: 380px;
+    width: 380px;
+}
+.special{
+    position: absolute;
+    bottom: 130px;
+    right: 34.5%;
+    z-index: -1;
+}
+.rect{
+    position: absolute;
+    top: 30px;
+    left: -250px;
+    z-index: -1;
+    overflow: hidden;
+}
+.rect1{
+    position: absolute;
+    bottom: 80px;
+    right: -151px;
+    z-index: -1;
+}
+.ball{
+    position: absolute;
+    top: -140px;
+    right: 150px;z-index: -1;
+}
+.snow{
+    position: absolute;
+    bottom: -110px;
+    left: 410px;
+    z-index: -1;
+}
+.bell1{
+    padding-top: 60px;
+}
+a{
+    text-decoration: none;
+    color: transparent;
+    font-size: 60px;
+}
+a:hover{
+    color: transparent;
+}
+
+
+
+
+
+.body{
+    width: 100%;
+    background: #f3f2ff;
+    background-image: url('../img/Frame.png');
+}
+.content-box{
+    width: 100%;
+    min-height: 200px;
+}
+.content-box-inner{
+    width: 70%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #fff;
+    border-radius: 20px;
+    margin-bottom: 70px;
+}
+.content-box-inner:first-of-type{
+    margin-top: 50px;
+}
+.content-box-inner:last-of-type{
+    margin-bottom: 100px;
+}
+.content-box-inner:hover{
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.5);
+}
+.content-box-img img{
+    width: 400px;
+    height: 400px;
+}
+.content-box-text{
+    width: 450px;
+    min-height: 10px;
+}
+.content-box-text p, .modal-body p{
+    text-align: center;
+    font-size: 35px;
+    line-height: 160%;
+    font-family: Euclid Flex;
+    color: #393939;
+}
+.modal-title{
+    text-align: center;
+    font-size: 30px;
+    font-family: Euclid Flex;
+    color: #393939;
+}
 .modal-body{
     display: flex;
     flex-direction: column;
@@ -60,4 +295,32 @@
 .modal-body img{
     height: 450px;
     width: 80%;
+}
+.container{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-info{
+    color: #393939;
+    background: white;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid white;
+    padding: 10px 49px;
+    margin-bottom: 50px;
+}
+.btn-info:hover{
+    background: transparent;
+    color: #393939;
+    transition: all 0.5s;
+    border: 1px solid #393939;
+}
+.btn-default{
+    outline: none;
+}
+.footer{
+    margin-top: 50px;
 }
